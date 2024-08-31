@@ -35,6 +35,4 @@ Implement the Histogram PDF estimation methods using h=0.09,0.3,0.6. Estimate P(
 ### Histogram Density 3D
 ![histogram density 3d](https://github.com/Ghafarian-code/Histogram-Non-Parametric-Density-Estimation/blob/main/images/Figure_4.png)
 
-Then employ the estimated Gaussian kernel for each class and do the followings with standard deviation 0.6:                                    
-a) Divide the samples into a 90% train and 10% test data randomly.                                                                             
-b) Use Bayesian estimation and predict the class labels while reporting train, test and total accuracies.                                      
+It is clear that as 'h' is larger, the histogram becomes more general and we lose details, and as 'h' is smaller, some bins may be empty and discontinuous.                                  
